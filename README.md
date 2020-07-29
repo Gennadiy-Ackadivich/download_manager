@@ -9,8 +9,8 @@ The user has the ability to add as many file paths as he wants, attaching a name
 ## Installation
 
 This application for a web browser can be installed by running a series of simple commands in your cmd:
-`npm install` - This will install all npm package dependencies
-`npm run start` - Will launch the application
+* `npm install` - This will install all npm package dependencies
+* `npm run start` - Will launch the application
 
 After that you need to go to the ogl address: localhost: 3000
 
