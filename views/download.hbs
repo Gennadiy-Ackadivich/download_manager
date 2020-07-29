@@ -1,0 +1,29 @@
+<section class="container my-5">
+        {{#if data}}
+        <div class="row">
+            {{#each data as |item|}}
+                    <div class="col-4 my-1">
+                        <div class="card">
+                            {{#if item.logo}}
+                                <img src="{{item.logo}}" alt="{{item.name}}">
+                            {{/if}}
+                            <div class="card-body">
+                                <h3 class="card-title">{{item.name}}</h3>
+                                <div class="card-text">
+                                    <div><strong>Type: </strong> {{item.type}}</div>
+                                    {{#if item.description}}
+                                        <div><strong>Description: </strong>{{item.description}}</div>
+                                    {{/if}}
+                                </div>
+                                <a href="#" download="{{item.path}}" class="btn btn-outline-primary mt-1">Download Now</a>
+                                <a href="/delete/{{item.id}}" class="btn btn-outline-danger mt-1">Delete</a>
+                            </div>
+                        </div>
+                    </div>
+            {{/each}}
+        </div>
+        {{else}}
+            <h1>You have no files to download</h1>
+            <p>Add them and then I'll keep you alive</p>
+        {{/if}}
+</section>

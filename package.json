@@ -1,0 +1,32 @@
+{
+  "name": "download-manager",
+  "version": "1.0.0",
+  "description": "Read a readme.md",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anna-Ivanova-FL/download-manager.git"
+  },
+  "keywords": [
+    "javascript",
+    "download",
+    "manager",
+    "vue"
+  ],
+  "author": "Anna Ivanova <anna.ivanova.freelance@yandex.by>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anna-Ivanova-FL/download-manager/issues"
+  },
+  "homepage": "https://github.com/Anna-Ivanova-FL/download-manager#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

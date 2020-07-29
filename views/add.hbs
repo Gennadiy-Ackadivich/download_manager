@@ -1,0 +1,22 @@
+<section class="my-5 container">
+    <form action="/add" method="post">
+        <h1>Add New File</h1>
+        <div class="form-group">
+            <label for="name">Name <span class="text-danger">*</span></label>
+            <input type="text" class="form-control" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="path">Path <span class="text-danger">*</span></label>
+            <input type="text" class="form-control" id="path" name="path" required>
+        </div>
+        <div class="form-group">
+            <label for="logo">URL image (optional)</label>
+            <input type="text" class="form-control" id="logo" name="logo">
+        </div>
+        <div class="form-group">
+            <label for="description">Description (optional)</label>
+            <input type="text" class="form-control" id="description" name="description">
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Add</button>
+    </form>
+</section>
